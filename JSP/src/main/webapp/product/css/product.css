@@ -883,9 +883,13 @@
 #product > .order > form > table td {
     text-align: center;
 }
-#product > .order > form > table td:last-child {
+#product > .order > form > table td:last-child > p:nth-of-type(1) {
     color:#ff006c;
     font-weight: bold;
+}
+#product > .order > form > table td:last-child >p:nth-of-type(2){
+    color:#009dff;
+    font-size: 8px;
 }
 #product > .order > form > table td > article {
     overflow: hidden;
@@ -1006,8 +1010,8 @@
     padding: 6px;
 }
 
-#product > .order > form > .delivery > table input[name=addr1] {width: 400px;}
-#product > .order > form > .delivery > table input[name=addr2] {width: 400px;}
+#product > .order > form > .delivery > table input[name=recipAddr1] {width: 400px;}
+#product > .order > form > .delivery > table input[name=recipAddr2] {width: 400px;}
 #product > .order > form > .delivery > table input[type=button] {
     padding: 4px 6px;
     border: 1px solid #ccc;
